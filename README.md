@@ -37,3 +37,20 @@ Across three tasks:
 
 ## 📁 Repository Structure
 
+PEFTComparisonLLMs/ │ ├── report/ # Final PDF report ├── src/ # Training scripts for each task │ ├── sentiment_analysis/ │ ├── code_generation/ │ └── math_reasoning/ ├── configs/ # PEFT configurations (LoRA, Prompt, Prefix) ├── results/ # Evaluation metrics and logs ├── notebooks/ # Ablation study and analysis └── README.md # Project overview
+
+
+---
+
+## ⚙️ Setup Instructions
+
+```bash
+git clone https://github.com/anish-sai-007/PEFTComparisonLLMs.git
+cd PEFTComparisonLLMs
+pip install -r requirements.txt
+Citation
+Popuri, Nimmagadda, Ravinuthala (2025). Systematic Comparison of Parameter-Efficient Fine-Tuning Methods for Large Language Models.
+License
+This project is licensed under the MIT License.
+🙏 Acknowledgements
+Special thanks to Professor Dhruv Kumar and Mr. Ayush Gupta for their mentorship and support throughout this project.
